@@ -11,7 +11,7 @@
 <br>— AHK Version: [1.1.36.02](https://github.com/AutoHotkey/AutoHotkey/releases/tag/v1.1.36.02/AutoHotkey/AutoHotkey/releases/download/v1.1.36.02/AutoHotkey_1.1.36.02_setup.exe)
 
 
-## Installation
+## Installation & Usage
 1) Clone the repository `git clone https://github.com/itscae/BeeminderWithAHK.git`
 2) Open `config.json` file to add the necessary information and turn off/on toggles.
 - pushover: Boolean to determine whether to send push notifications.
@@ -35,6 +35,10 @@
 }
 ```
 3) Run `index.ahk` to start the script.
-![Image of the GUI](gui.png)
 Every 25 minutes, the script will send a goal update request using Beeminder's API and will also log the pomodoro count in a file defined by the current date. The script will then switch to a 5 minute timer, which counts as a break. Afterwards, the timer stops and resets; by then you can start another Pomodoro.
+![Image of the GUI](gui.png)
 
+## Credits
+[cocobelgica](https://github.com/cocobelgica/AutoHotkey-JSON) - AHK JSON Parser.
+<br>[SamDecrock](https://github.com/SamDecrock/node-pushover) - Node.js module for Pushover.
+<br>[malcolmocean](https://github.com/malcolmocean/beeminderjs) - Node.js module for Beeminder.
