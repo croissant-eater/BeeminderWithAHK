@@ -35,7 +35,7 @@
 }
 ```
 3) Run `index.ahk` to start the script.
-Every 25 minutes, the script will send a goal update request using Beeminder's API and will also log the pomodoro count in a file defined by the current date. The script will then switch to a 5 minute timer, which counts as a break. Afterwards, the timer stops and resets; by then you can start another Pomodoro.
+Every 25 minutes, the script will send a goal update request using Beeminder's API and will also log the pomodoro count in a file defined by the current date. The script will then switch to a 5 minute timer, which counts as a break. Afterwards, the timer stops and resets; by then you can start another Pomodoro.<br>
 ![Image of the GUI](gui.png)
 
 ## Credits
