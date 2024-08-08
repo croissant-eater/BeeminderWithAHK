@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "beeminder": "^2.0.0",
+    "node-pushover": "^1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "pushover": false,
+    "beeminder": false,
+    "playSounds": false,
+    "changeIcons": true,
+    "bmAuthToken": "tokenHere",
+    "bmGoalName": "goalHere",
+    "pushAuthToken": "tokenHere",
+    "pushUserId": "userIdHere"
+}
